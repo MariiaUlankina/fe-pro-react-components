@@ -32,5 +32,6 @@ Content.propTypes = {
         content: PropTypes.string.isRequired,
     })).isRequired
 
-}
+};
+
 export default Content;
