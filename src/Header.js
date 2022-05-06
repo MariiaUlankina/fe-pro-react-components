@@ -16,7 +16,7 @@ const Header = (props) => {
                     <ul className="nav-list">
                         {
                             props.items.map((navItem) => {
-                                return <NavItem link={navItem.link} key={navItem}>{navItem.title}</NavItem>
+                                return <NavItem link={navItem.link} key={navItem.title}>{navItem.title}</NavItem>
                             })
                         }
                     </ul>
